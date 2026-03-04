@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Roadmap Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Interactive Roadmap Builder</h1>
+
+        <div class="selector">
+            <select id="careerSelect">
+                <option value="">-- Select Career Path --</option>
+                <option value="frontend">Frontend Developer</option>
+                <option value="backend">Backend Developer</option>
+                <option value="data">Data Scientist</option>
+            </select>
+            <button id="generateBtn">Generate Roadmap</button>
+        </div>
+
+        <div id="roadmap"></div>
+
+        <button id="resetBtn" class="reset">Reset Progress</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
